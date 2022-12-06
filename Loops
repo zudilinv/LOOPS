@@ -1,4 +1,4 @@
-//Цикл while
+//Цикл WHILE
 const myArray = [];
 let i = 0;
 while (i < 6) {
@@ -13,7 +13,7 @@ while (i >= 0) {
   i--;
 }             //[5, 4, 3, 2, 1, 0]
 ////////////////////////
-//Цикл for
+//Цикл FOR
 const ourArray = [];
 
 for (let i = 0; i < 6; i++) {
@@ -26,4 +26,13 @@ for (let i = 5; i >= 0; i--) {
   ourArray.push(i);
 }             //[5, 4, 3, 2, 1, 0]
 ////////////////////////
+//Цикл DO WHILE
+const ourArray = [];
+let i = 0;
+do {
+  ourArray.push(i);
+  i++;
+} while (i < 5);
+////////////////////////
+//
 

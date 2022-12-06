@@ -1,0 +1,28 @@
+//Цикл while
+const myArray = [];
+let i = 0;
+while (i < 6) {
+  myArray.push(i);
+  i++;
+}              //[0, 1, 2, 3, 4, 5]
+///////////////////////
+const myArray = [];
+let i = 5;
+while (i >= 0) {
+  myArray.push(i);
+  i--;
+}             //[5, 4, 3, 2, 1, 0]
+////////////////////////
+//Цикл for
+const ourArray = [];
+
+for (let i = 0; i < 6; i++) {
+  ourArray.push(i);
+}            //[0, 1, 2, 3, 4, 5]
+///////////////////////
+const ourArray = [];
+
+for (let i = 5; i >= 0; i--) {
+  ourArray.push(i);
+}             //[5, 4, 3, 2, 1, 0]
+////////////////////////
